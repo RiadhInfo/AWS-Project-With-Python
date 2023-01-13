@@ -9,7 +9,7 @@ def verify(x):
     except:
        return "Verify your input"
 
-def play():
+"""def play():
     x = int(window.txt.text())
     msg = verify(x)
     window.result.setText(msg)
@@ -18,7 +18,7 @@ app = QApplication([])
 window = loadUi("test.ui")
 window.show()
 window.verify.clicked.connect(play)
-app.exec_()
+app.exec_()"""
 
 
 
