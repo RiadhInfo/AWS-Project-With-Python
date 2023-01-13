@@ -1,5 +1,5 @@
-from PyQt5.uic import loadUi
-from PyQt5.QtWidgets import QApplication
+"""from PyQt5.uic import loadUi
+from PyQt5.QtWidgets import QApplication"""
 def verify(x):
     try:
         if x > 0:
