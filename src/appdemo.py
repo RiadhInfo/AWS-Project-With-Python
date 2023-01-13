@@ -14,11 +14,11 @@ def play():
     msg = verify(x)
     window.result.setText(msg)
 
-app = QApplication([])
+"""app = QApplication([])
 window = loadUi("test.ui")
 window.show()
 window.verify.clicked.connect(play)
-app.exec_()
+app.exec_()"""
 
 
 

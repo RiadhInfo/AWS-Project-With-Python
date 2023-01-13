@@ -1,4 +1,9 @@
-from path import *
+import sys, os
+parent_dir = os.getcwd() # find the path to module a
+# Then go up one level to the common parent directory
+path = os.path.dirname(parent_dir)
+# Add the parent to sys.pah
+sys.path.append(path)
 from src.appdemo import verify
 import unittest
 
@@ -17,5 +22,5 @@ class UnitTests(unittest.TestCase):
         expected = "Verify your input"
         self.assertEqual(actual, expected, "Verify your input")
         
-if __name__ == "__main__":
-    unittest.main()
+"""if __name__ == "__main__":
+    unittest.main()"""
