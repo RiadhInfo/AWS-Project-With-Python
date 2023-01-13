@@ -22,5 +22,5 @@ class UnitTests(unittest.TestCase):
         expected = "Verify your input"
         self.assertEqual(actual, expected, "Verify your input")
         
-"""if __name__ == "__main__":
-    unittest.main()"""
+if __name__ == "__main__":
+    unittest.main()
