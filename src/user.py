@@ -1,7 +1,7 @@
 class User:
-def init(self, firstname, lastname, email, password):
-
-    self.FirstName = firstname
-    self.LastName = lastname
+  def __init__(self, firstname, lastname, email, password, isAdmin):
+    self.firstname = firstname
+    self.lastname = lastname
     self.email = email
     self.password = password 
+    self.isAdmin = False
