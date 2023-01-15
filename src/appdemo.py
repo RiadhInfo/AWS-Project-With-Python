@@ -1,5 +1,3 @@
-from PyQt5.uic import loadUi
-from PyQt5.QtWidgets import QApplication
 def verify(x):
     try:
         if x > 0:
@@ -10,6 +8,8 @@ def verify(x):
        return "Verify your input"
 
 """def play():
+    from PyQt5.uic import loadUi
+    from PyQt5.QtWidgets import QApplication
     x = int(window.txt.text())
     msg = verify(x)
     window.result.setText(msg)
